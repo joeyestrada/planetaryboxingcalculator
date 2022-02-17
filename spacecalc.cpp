@@ -6,13 +6,13 @@ int main() {
   std::cout << "Please enter your earth weight: ";
   std::cin >> weight;
 
-  std::cout << "Please enter the number that corresponds with the planet your boxing match is in:\n";
+  std::cout << "Below are a list of planets in your solar system:\n";
   std::cout << "1 for Mercury   2 for Venus   3 for Mars\n";
   std::cout << "4 for Jupiter   5 for Saturn  6 for Uranus\n";
   std::cout << "7 for Neptune\n";
   
   int planet;
-  std::cout << "Enter number: ";
+  std::cout << "Enter the number that corresponds with the planet your boxing match is in: ";
   std::cin >> planet;
 
   double new_weight;
